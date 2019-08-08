@@ -1,0 +1,164 @@
+html,body{
+    height:100%;
+}
+
+.first {
+    height:100vh;
+    min-height: 400px;
+    background-size:cover;
+    background-image: url('indexBackground.jpeg');
+    /*height: 40em;*/
+}
+
+.navbar {
+    background:transparent;
+    border-color:transparent;
+    color: white;
+}
+
+.navbar-nav > li > a{
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+    font-size: 1.25em;
+}
+
+.navbar-nav > li > a:hover{
+    font-family: 'Roboto', sans-serif;
+    color: silver !important;
+    /*background-color: #96858F !important;*/
+    opacity: 0.5 !important;
+}
+
+.navbar .navbar-brand {
+  padding-top: 3px;
+}
+.navbar .navbar-brand img {
+  height: 50px;
+  width: 50px;
+}
+
+.title h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 1;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 4rem;
+  transform: translate(-50%, -50%);
+}
+
+.title h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 1;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.corner-icons {
+    font-size: 1.4em;
+}
+
+.bod {
+    background-color: white;
+    padding: 2em;
+}
+
+.section {
+    max-width: 600px;
+    margin: 12px auto;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: black !important;
+  transition: background-color 2000ms linear;
+}
+
+#about {
+    clear:both;
+}
+
+#about img {
+    float: right;
+    width:300px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+#about .text{
+    float: left;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+/* Start of Column CSS */
+#container4 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+#container3 {
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#col1 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:77%;
+	overflow:hidden;
+}
+#col2 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:81%;
+	overflow:hidden;
+}
+#col3 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:85%;
+	overflow:hidden;
+}
+#col4 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:89%;
+	overflow:hidden;
+}
